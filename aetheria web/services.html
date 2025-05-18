@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Aetheria Grand Hotel</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Aetheria Logo" height="50">
+        <span class="ms-2 gold-text">AETHERIA</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">OUR TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header py-5 bg-light text-center">
+    <div class="container">
+      <h1 class="display-4 gold-text fw-bold mt-5 pt-5">Our Services</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Services</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Services Introduction -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title gold-text text-center">Experience Luxury At Its Finest</h2>
+          <p class="lead mb-5">At Aetheria Grand Hotel, we offer a comprehensive range of premium services designed to create an unforgettable stay for our guests. From luxurious accommodations to exquisite dining experiences and rejuvenating wellness treatments, every aspect of your stay is crafted with meticulous attention to detail.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accommodation Services -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title gold-text mb-5">Luxury Accommodation</h2>
+      <div class="row">
+        <!-- Room Type 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="assets/img/deluxe.jpg" class="card-img-top" alt="Deluxe Room">
+            <div class="card-body">
+              <h4 class="card-title">Deluxe Rooms</h4>
+              <p class="card-text">Our spacious Deluxe Rooms offer mountain views, premium bedding, and elegant bathrooms with rainfall showers. Each room features modern amenities including a smart TV, mini-bar, and complimentary high-speed WiFi.</p>
+              <ul class="list-unstyled mt-3">
+                <li><i class="fas fa-check text-success me-2"></i> 40 sqm space</li>
+                <li><i class="fas fa-check text-success me-2"></i> King or twin beds</li>
+                <li><i class="fas fa-check text-success me-2"></i> Mountain view</li>
+                <li><i class="fas fa-check text-success me-2"></i> Smart TV</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+              <button class="btn btn-outline-primary book-now-btn" data-room-type="Deluxe Room" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Room Type 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="assets/img/executives.jpg" class="card-img-top" alt="Executive Suite">
+            <div class="card-body">
+              <h4 class="card-title">Executive Suites</h4>
+              <p class="card-text">Our Executive Suites offer separate living areas, luxurious bedrooms, and panoramic views. Enjoy exclusive amenities including a private balcony, premium toiletries, and access to the Executive Lounge.</p>
+              <ul class="list-unstyled mt-3">
+                <li><i class="fas fa-check text-success me-2"></i> 70 sqm space</li>
+                <li><i class="fas fa-check text-success me-2"></i> Separate living area</li>
+                <li><i class="fas fa-check text-success me-2"></i> Private balcony</li>
+                <li><i class="fas fa-check text-success me-2"></i> Executive Lounge access</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+              <button class="btn btn-outline-primary book-now-btn" data-room-type="Executive Suite" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Room Type 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="assets/img/presidential suite.jpg" class="card-img-top" alt="Presidential Suite">
+            <div class="card-body">
+              <h4 class="card-title">Presidential Suite</h4>
+              <p class="card-text">Experience unparalleled luxury in our Presidential Suite featuring a grand living room, dining area, kitchenette, and master bedroom with a king-sized bed. Includes 24-hour butler service and exclusive amenities.</p>
+              <ul class="list-unstyled mt-3">
+                <li><i class="fas fa-check text-success me-2"></i> 120 sqm space</li>
+                <li><i class="fas fa-check text-success me-2"></i> Separate dining area</li>
+                <li><i class="fas fa-check text-success me-2"></i> 24-hour butler service</li>
+                <li><i class="fas fa-check text-success me-2"></i> Helicopter transfer (on request)</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+              <button class="btn btn-outline-primary book-now-btn" data-room-type="Presidential Suite" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wellness & Spa Services -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title gold-text mb-5">Wellness & Spa</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="assets/img/wellness spa.jpg" alt="Wellness & Spa" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mb-4">Aetheria Spa Sanctuary</h3>
+          <p>Our award-winning spa offers a serene escape where ancient Indonesian healing traditions meet modern wellness techniques. Nestled amidst tropical gardens with mountain views, our spa facilities include:</p>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h5><i class="fas fa-spa gold-text me-2"></i> Massage Therapies</h5>
+                <p>Traditional Balinese, hot stone, aromatherapy, and deep tissue massages performed by certified therapists.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h5><i class="fas fa-hot-tub gold-text me-2"></i> Hydrotherapy</h5>
+                <p>Vitality pool, cold plunge, steam room, and sauna to revitalize your body.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h5><i class="fas fa-leaf gold-text me-2"></i> Body Treatments</h5>
+                <p>Scrubs, wraps, and facials using natural ingredients and premium products.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h5><i class="fas fa-yoga gold-text me-2"></i> Wellness Activities</h5>
+                <p>Daily yoga, meditation, and fitness classes with certified instructors.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#spaPackagesModal">Explore Spa Packages</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dining Services -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title gold-text mb-5">Dining Experiences</h2>
+      <div class="row">
+        <!-- Restaurant 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="assets/img/highland rest.jpg" class="card-img-top" alt="The Highlands Restaurant">
+            <div class="card-body">
+              <h4 class="card-title">The Highlands Restaurant</h4>
+              <p class="card-text">Our signature restaurant serves Indonesian and international cuisine using fresh local ingredients, many sourced from our own organic garden. Enjoy panoramic views while savoring expertly crafted dishes.</p>
+              <p><strong>Opening Hours:</strong><br>Breakfast: 6:30 AM - 10:30 AM<br>Lunch: 12:00 PM - 2:30 PM<br>Dinner: 6:00 PM - 10:30 PM</p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+              <button class="btn btn-outline-primary view-menu-btn" data-restaurant="highlands" data-bs-toggle="modal" data-bs-target="#menuModal">View Menu</button>
+            </div>
+          </div>
+        </div>
+        <!-- Restaurant 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="assets/img/arther lounge.jpg" class="card-img-top" alt="Aether Lounge">
+            <div class="card-body">
+              <h4 class="card-title">Aether Lounge</h4>
+              <p class="card-text">A sophisticated space to enjoy afternoon tea, cocktails, and light bites. Our mixologists craft both classic and innovative beverages using premium spirits and fresh local ingredients.</p>
+              <p><strong>Opening Hours:</strong><br>Daily: 10:00 AM - 12:00 AM<br>Afternoon Tea: 2:00 PM - 5:00 PM<br>Happy Hour: 5:00 PM - 7:00 PM</p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+              <button class="btn btn-outline-primary view-menu-btn" data-restaurant="aether" data-bs-toggle="modal" data-bs-target="#menuModal">View Menu</button>
+            </div>
+          </div>
+        </div>
+        <!-- Restaurant 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="assets/img/poolside grill.jpg" class="card-img-top" alt="Poolside Grill">
+            <div class="card-body">
+              <h4 class="card-title">Poolside Grill</h4>
+              <p class="card-text">Casual dining by our infinity pool offering grilled specialties, fresh salads, and refreshing beverages. Perfect for a relaxed lunch or sunset dinner in a tropical setting.</p>
+              <p><strong>Opening Hours:</strong><br>Daily: 11:00 AM - 8:00 PM<br>Bar Service: 10:00 AM - 9:00 PM</p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+              <button class="btn btn-outline-primary view-menu-btn" data-restaurant="poolside" data-bs-toggle="modal" data-bs-target="#menuModal">View Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Services -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title gold-text text-center mb-5">Additional Services</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="text-center">
+            <div class="icon-box mb-3">
+              <i class="fas fa-users gold-text" style="font-size: 2.5rem;"></i>
+            </div>
+            <h4>Events & Meetings</h4>
+            <p>State-of-the-art meeting rooms and elegant event spaces for corporate retreats, weddings, and special occasions.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="text-center">
+            <div class="icon-box mb-3">
+              <i class="fas fa-dumbbell gold-text" style="font-size: 2.5rem;"></i>
+            </div>
+            <h4>Fitness Center</h4>
+            <p>Modern equipment, personal trainers, and breathtaking views to make your workout truly inspiring.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="text-center">
+            <div class="icon-box mb-3">
+              <i class="fas fa-hiking gold-text" style="font-size: 2.5rem;"></i>
+            </div>
+            <h4>Adventure Activities</h4>
+            <p>Guided hikes, mountain biking, and ecological tours to explore the natural beauty of Puncak.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="text-center">
+            <div class="icon-box mb-3">
+              <i class="fas fa-concierge-bell gold-text" style="font-size: 2.5rem;"></i>
+            </div>
+            <h4>Concierge Services</h4>
+            <p>Personalized assistance for transportation, tours, restaurant reservations, and special requests.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Request -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title gold-text text-center">Request a Service</h2>
+          <p class="mb-5">For personalized service inquiries or to make special arrangements, please fill out the form below or contact our concierge team directly.</p>
+          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Modal -->
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title gold-text" id="bookingModalLabel">Book Your Stay</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="bookingForm">
+          <!-- Added Guest Name Field -->
+          <div class="mb-3">
+            <label for="guestName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="guestName" placeholder="Enter your full name" required>
+          </div>
+          <!-- Added Email Field -->
+          <div class="mb-3">
+            <label for="guestEmail" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="guestEmail" placeholder="Enter your email address" required>
+          </div>
+          <div class="mb-3">
+            <label for="checkInDate" class="form-label">Check-In Date</label>
+            <input type="date" class="form-control" id="checkInDate" required>
+          </div>
+          <div class="mb-3">
+            <label for="checkOutDate" class="form-label">Check-Out Date</label>
+            <input type="date" class="form-control" id="checkOutDate" required>
+          </div>
+          <div class="mb-3">
+            <label for="roomType" class="form-label">Room Type</label>
+            <select class="form-select" id="roomType" required>
+              <option value="">Select Room Type</option>
+              <option value="deluxe">Deluxe Room</option>
+              <option value="executive">Executive Suite</option>
+              <option value="presidential">Presidential Suite</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="guests" class="form-label">Number of Guests</label>
+            <select class="form-select" id="guests" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="specialRequests" class="form-label">Special Requests</label>
+            <textarea class="form-control" id="specialRequests" rows="3"></textarea>
+          </div>
+        </form>
+        <div class="booking-success-message alert alert-success d-none">
+          <strong>Booking Successful!</strong> Your reservation has been confirmed. A confirmation email will be sent to you shortly.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="confirmBookingBtn">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Spa Packages Modal -->
+  <div class="modal fade" id="spaPackagesModal" tabindex="-1" aria-labelledby="spaPackagesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-light">
+          <h5 class="modal-title gold-text" id="spaPackagesModalLabel">Our Spa Packages</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <!-- Package 1 -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title gold-text">Mountain Serenity Package</h4>
+                  <p class="text-muted">120 minutes | IDR 1,200,000</p>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success me-2"></i> Traditional Balinese Massage (60 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Volcanic Earth Body Scrub (30 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Refreshing Facial (30 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Herbal Tea and Fresh Fruits</li>
+                  </ul>
+                  <p class="mt-3">A perfect combination of treatments designed to rejuvenate the body and mind, inspired by the tranquility of our mountain surroundings.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Package 2 -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title gold-text">Javanese Royal Treatment</h4>
+                  <p class="text-muted">150 minutes | IDR 1,500,000</p>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success me-2"></i> Javanese Lulur Body Scrub (45 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Aromatherapy Massage (60 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Yogurt Body Mask (30 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Flower Bath with Essential Oils</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Specialty Herbal Drinks</li>
+                  </ul>
+                  <p class="mt-3">Experience the royal treatment traditionally reserved for Javanese brides, leaving your skin glowing and your spirit renewed.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Package 3 -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title gold-text">Couples Retreat</h4>
+                  <p class="text-muted">180 minutes | IDR 2,800,000 (for two)</p>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success me-2"></i> Private Spa Suite with Mountain View</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Aromatic Foot Bath Ritual (15 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Synchronized Full Body Massage (90 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Facial Treatment (45 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Private Jacuzzi with Champagne</li>
+                  </ul>
+                  <p class="mt-3">Share a memorable spa experience with your loved one in the privacy of our exclusive couple's suite, complete with panoramic views.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Package 4 -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4 class="card-title gold-text">Executive Stress Relief</h4>
+                  <p class="text-muted">90 minutes | IDR 950,000</p>
+                  <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success me-2"></i> Deep Tissue Massage (60 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Head, Neck and Shoulder Focus (15 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Reflexology (15 min)</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Refreshing Beverage</li>
+                  </ul>
+                  <p class="mt-3">Specifically designed for busy professionals, this package targets tension areas to release stress and restore energy levels.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Restaurant Menu Modal -->
+  <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-light">
+          <h5 class="modal-title gold-text" id="menuModalLabel">Restaurant Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Highlands Restaurant Menu Content -->
+          <div id="highlands-menu" class="restaurant-menu">
+            <h3 class="text-center mb-4">The Highlands Restaurant</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="gold-text">Appetizers</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Chocolate Lava Cake</h6>
+                      <span>IDR 95,000</span>
+                    </div>
+                    <p class="text-muted small">With vanilla bean ice cream and berry compote</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Tropical Fruit Platter</h6>
+                      <span>IDR 70,000</span>
+                    </div>
+                    <p class="text-muted small">Selection of seasonal tropical fruits</p>
+                  </li>
+                </ul>
+                
+                <h4 class="gold-text mt-4">Beverages</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Signature Mountain Breeze Cocktail</h6>
+                      <span>IDR 125,000</span>
+                    </div>
+                    <p class="text-muted small">Premium gin with cucumber, mint, and local citrus</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Selection of Fine Wines</h6>
+                      <span>from IDR 150,000</span>
+                    </div>
+                    <p class="text-muted small">Please ask for our wine list</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Aether Lounge Menu Content -->
+          <div id="aether-menu" class="restaurant-menu d-none">
+            <h3 class="text-center mb-4">Aether Lounge</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="gold-text">Light Bites</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Artisanal Cheese Platter</h6>
+                      <span>IDR 180,000</span>
+                    </div>
+                    <p class="text-muted small">Selection of imported and local cheeses with accompaniments</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Prawn and Avocado Brioche</h6>
+                      <span>IDR 110,000</span>
+                    </div>
+                    <p class="text-muted small">Fresh prawns with avocado on toasted brioche</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Smoked Salmon Bagel</h6>
+                      <span>IDR 95,000</span>
+                    </div>
+                    <p class="text-muted small">Norwegian salmon with cream cheese and capers</p>
+                  </li>
+                </ul>
+                
+                <h4 class="gold-text mt-4">Afternoon Tea Set</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Classic Afternoon Tea</h6>
+                      <span>IDR 250,000 pp</span>
+                    </div>
+                    <p class="text-muted small">Selection of finger sandwiches, scones with clotted cream and jam, pastries, and premium teas</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Royal Champagne Tea</h6>
+                      <span>IDR 450,000 pp</span>
+                    </div>
+                    <p class="text-muted small">Classic tea set with a glass of premium champagne</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h4 class="gold-text">Signature Cocktails</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Cloud Nine</h6>
+                      <span>IDR 140,000</span>
+                    </div>
+                    <p class="text-muted small">Vodka, elderflower, lychee, and sparkling wine</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Highland Sunset</h6>
+                      <span>IDR 135,000</span>
+                    </div>
+                    <p class="text-muted small">Aged rum, passion fruit, cinnamon, and ginger</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Botanical Garden</h6>
+                      <span>IDR 130,000</span>
+                    </div>
+                    <p class="text-muted small">Gin, cucumber, basil, lime, and tonic</p>
+                  </li>
+                </ul>
+                
+                <h4 class="gold-text mt-4">Non-Alcoholic Beverages</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Fresh Fruit Smoothies</h6>
+                      <span>IDR 85,000</span>
+                    </div>
+                    <p class="text-muted small">Choice of tropical fruits blended with yogurt or coconut water</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Premium Tea Selection</h6>
+                      <span>IDR 60,000</span>
+                    </div>
+                    <p class="text-muted small">Variety of loose-leaf teas from around the world</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Specialty Coffee</h6>
+                      <span>from IDR 55,000</span>
+                    </div>
+                    <p class="text-muted small">Single-origin Indonesian coffee prepared in various methods</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Poolside Grill Menu Content -->
+          <div id="poolside-menu" class="restaurant-menu d-none">
+            <h3 class="text-center mb-4">Poolside Grill</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class="gold-text">Starters & Salads</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Caesar Salad</h6>
+                      <span>IDR 85,000</span>
+                    </div>
+                    <p class="text-muted small">Romaine lettuce, croutons, parmesan, and classic dressing</p>
+                    <p class="text-muted small">Add grilled chicken (+IDR 35,000) or prawns (+IDR 45,000)</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Fresh Spring Rolls</h6>
+                      <span>IDR 75,000</span>
+                    </div>
+                    <p class="text-muted small">Rice paper rolls with vegetables and herbs, served with peanut sauce</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Nachos Grande</h6>
+                      <span>IDR 95,000</span>
+                    </div>
+                    <p class="text-muted small">Corn chips with melted cheese, jalapeños, guacamole, and salsa</p>
+                  </li>
+                </ul>
+                
+                <h4 class="gold-text mt-4">From the Grill</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Angus Beef Burger</h6>
+                      <span>IDR 165,000</span>
+                    </div>
+                    <p class="text-muted small">Prime beef patty with cheese, lettuce, tomato, and special sauce, served with fries</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Grilled Mahi-Mahi</h6>
+                      <span>IDR 175,000</span>
+                    </div>
+                    <p class="text-muted small">Fresh fish with lemon-herb butter, served with grilled vegetables</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Satay Platter</h6>
+                      <span>IDR 140,000</span>
+                    </div>
+                    <p class="text-muted small">Selection of chicken, beef, and prawn satay with traditional accompaniments</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h4 class="gold-text">Sandwiches & Wraps</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Club Sandwich</h6>
+                      <span>IDR 125,000</span>
+                    </div>
+                    <p class="text-muted small">Triple-decker with chicken, bacon, egg, lettuce, and tomato</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Grilled Vegetable Wrap</h6>
+                      <span>IDR 110,000</span>
+                    </div>
+                    <p class="text-muted small">Seasonal grilled vegetables with hummus in a tortilla wrap</p>
+                  </li>
+                </ul>
+                
+                <h4 class="gold-text mt-4">Desserts</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Ice Cream Selection</h6>
+                      <span>IDR 65,000</span>
+                    </div>
+                    <p class="text-muted small">Choice of three scoops with toppings</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Fresh Fruit Plate</h6>
+                      <span>IDR 70,000</span>
+                    </div>
+                    <p class="text-muted small">Assortment of seasonal tropical fruits</p>
+                  </li>
+                </ul>
+                
+                <h4 class="gold-text mt-4">Refreshments</h4>
+                <ul class="list-unstyled menu-items">
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Tropical Cocktails</h6>
+                      <span>from IDR 120,000</span>
+                    </div>
+                    <p class="text-muted small">Selection of refreshing poolside cocktails</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Fresh Juices</h6>
+                      <span>IDR 60,000</span>
+                    </div>
+                    <p class="text-muted small">Freshly squeezed seasonal fruits</p>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex justify-content-between">
+                      <h6>Coconut Water</h6>
+                      <span>IDR 55,000</span>
+                    </div>
+                    <p class="text-muted small">Served in fresh young coconut</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/img/logo.png" alt="Aetheria Logo" height="50" class="mb-3">
+          <p>Aetheria Grand Hotel is your gateway to an unforgettable stay defined by elegance and excellence.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="services.html" class="text-white">Services</a></li>
+            <li><a href="team.html" class="text-white">Our Team</a></li>
+            <li><a href="contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Connect With Us</h5>
+          <div class="social-icons">
+           <a href="https://www.instagram.com/aetheria_grandhotel?igsh=MTRjcGsxdmJsZmk2cw==" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">© 2025 Aetheria Grand Hotel. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">Managed by PT. Aetheria Hospitality International</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

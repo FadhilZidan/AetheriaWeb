@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aetheria Grand Hotel - Luxury in Highland</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Aetheria Logo" height="50">
+        <span class="ms-2 gold-text">AETHERIA</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">OUR TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Carousel -->
+  <header class="hero-carousel">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('assets/img/home.jpg');">
+          <div class="overlay"></div>
+          <div class="carousel-caption hero-content">
+            <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInDown">AETHERIA GRAND HOTEL</h1>
+            <p class="lead mb-5 animate__animated animate__fadeInUp delay-1s">Breathe Elegance, Stay in Aetheria</p>
+            <a href="#about" class="btn btn-lg btn-outline-light animate__animated animate__fadeInUp delay-2s">Discover More</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('assets/img/luxury.jpg');">
+          <div class="overlay"></div>
+          <div class="carousel-caption hero-content">
+            <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInDown">LUXURY ACCOMMODATION</h1>
+            <p class="lead mb-5 animate__animated animate__fadeInUp delay-1s">Experience Unparalleled Comfort and Elegance</p>
+            <a href="services.html" class="btn btn-lg btn-outline-light animate__animated animate__fadeInUp delay-2s">Explore Rooms</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('assets/img/relax.jpg');">
+          <div class="overlay"></div>
+          <div class="carousel-caption hero-content">
+            <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInDown">WELLNESS & RELAXATION</h1>
+            <p class="lead mb-5 animate__animated animate__fadeInUp delay-1s">Rejuvenate Your Body and Soul</p>
+            <a href="services.html" class="btn btn-lg btn-outline-light animate__animated animate__fadeInUp delay-2s">View Spa Services</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- About Section Preview -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="section-title gold-text">About Aetheria Grand Hotel</h2>
+          <p>Aetheria Grand Hotel is a five-star luxury hotel nestled in the serene highlands of Puncak, Bogor. Blending modern elegance with the natural beauty of Indonesia's tropical landscape, it serves as the perfect destination for both leisure travelers and business professionals.</p>
+          <a href="about.html" class="btn btn-outline-primary">Learn More</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="assets/img/home.jpg" alt="Aetheria Pool" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Preview -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5 gold-text">Our Premium Services</h2>
+      <div class="row">
+        <!-- Service 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="assets/img/luxury.jpg" class="card-img-top" alt="Luxury Accommodation">
+            <div class="card-body text-center">
+              <h5 class="card-title">Luxury Accommodation</h5>
+              <p class="card-text">120 well-appointed rooms and suites offering breathtaking mountain views.</p>
+              <a href="services.html" class="btn btn-sm btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="assets/img/wellness spa.jpg" class="card-img-top" alt="Wellness & Spa">
+            <div class="card-body text-center">
+              <h5 class="card-title">Wellness & Spa</h5>
+              <p class="card-text">Exclusive spa designed to rejuvenate the body and soul with premium treatments.</p>
+              <a href="services.html" class="btn btn-sm btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="assets/img/resto.jpg" class="card-img-top" alt="Resto & Bar">
+            <div class="card-body text-center">
+              <h5 class="card-title">Resto & Bar</h5>
+              <p class="card-text">World-class dining experiences with a blend of international and local cuisines.</p>
+              <a href="services.html" class="btn btn-sm btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="services.html" class="btn btn-primary">Explore All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Preview -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5 gold-text">Our Management Team</h2>
+      <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="team-member text-center">
+            <img src="assets/img/masha.jpeg" alt="Team Member" class="img-fluid rounded-circle mb-3">
+            <h4>Keysha Shafa Salsabila</h4>
+            <p class="text-muted">General Manager</p>
+          </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="team-member text-center">
+            <img src="assets/img/ichigo.jpeg" alt="Team Member" class="img-fluid rounded-circle mb-3">
+            <h4>M. Fadhil Zidan M</h4>
+            <p class="text-muted">Director of Operations</p>
+          </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="team-member text-center">
+            <img src="assets/img/loopy.jpeg" alt="Team Member" class="img-fluid rounded-circle mb-3">
+            <h4>Farissa Della Agustina</h4>
+            <p class="text-muted">Executive Chef</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="team.html" class="btn btn-primary">Meet Our Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Preview -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="section-title mb-4 gold-text">Contact Us</h2>
+          <p class="lead mb-4">We'd love to hear from you. Get in touch with us for reservations or inquiries.</p>
+          <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt me-2 gold-text"></i> Jl. Raya Puncak Km. 85, Bogor, West Java, Indonesia</p>
+            <p><i class="fas fa-phone me-2 gold-text"></i> +62 251 8254000</p>
+            <p><i class="fas fa-envelope me-2 gold-text"></i> info@aetheriagrandhotel.com</p>
+          </div>
+          <div class="mt-4">
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-img">
+            <img src="assets/img/contact.png" alt="Contact" class="img-fluid rounded shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/img/logo.png" alt="Aetheria Logo" height="50" class="mb-3">
+          <p>Aetheria Grand Hotel is your gateway to an unforgettable stay defined by elegance and excellence.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="services.html" class="text-white">Services</a></li>
+            <li><a href="team.html" class="text-white">Our Team</a></li>
+            <li><a href="contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Connect With Us</h5>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/aetheria_grandhotel?igsh=MTRjcGsxdmJsZmk2cw==" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">© 2025 Aetheria Grand Hotel. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">Managed by PT. Aetheria Hospitality International</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
